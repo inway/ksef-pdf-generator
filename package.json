@@ -1,6 +1,6 @@
 {
   "name": "@inway/ksef-fe-invoice-converter",
-  "version": "0.0.43-0",
+  "version": "0.0.43",
   "scripts": {
     "dev": "vite --mode public --config vite.config.ts",
     "build": "vite build --mode production",
