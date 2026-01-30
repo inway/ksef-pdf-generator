@@ -1,5 +1,5 @@
 {
-  "name": "@akmf/ksef-fe-invoice-converter",
+  "name": "@inway/ksef-fe-invoice-converter",
   "version": "1.1.4",
   "scripts": {
     "dev": "vite --mode public --config vite.config.ts",
@@ -8,6 +8,13 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:ci": "vitest run --coverage"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inway/ksef-pdf-generator.git"
   },
   "main": "./ksef-fe-invoice-converter.umd.cjs",
   "module": "./ksef-fe-invoice-converter.js",
