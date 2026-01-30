@@ -1,0 +1,9 @@
+.gitignore
+.prettierignore
+.prettierc.json
+assets
+eslint.config.mts
+src
+tsconfig.*
+vite.config.ts
+*.tgz
